@@ -1,7 +1,7 @@
 <?php
 /** 
 * @name        schedule.php 
-* @version      0.1
+* @version     0.1
 * 
 *------------------------------------------------------------------
 *    
@@ -14,38 +14,13 @@
 *    @since       20141203
 *    @copyright   ©2015 SKOONCH.COM
 *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES
-*                 AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM
-*                 ARE THE SOLE PROPERTY OF ACME.COM.
+*                 AND BUSINESS INNOVATIONS INCORPORATED INTO skoonch.com
+*                 ARE THE SOLE PROPERTY OF skoonch.com.
 *
 *----------------------------------------------------------------*/
 $start = microtime(true);
 $page_title = 'ACME Summit 2015 - Schedule';
-include_once 'includes/mainpre.php';
-include_once INCLUDES.'header.html';
-?>
-
-<?php
-/** 
- * @name        schedule.php 
- * @version      0.1
- * 
- *------------------------------------------------------------------
- *    
- *    ACME, INC.
- *    
- *    http://ACMEPHARMA.skoonch.com
- *
- *    @author      wbarstad
- *    @since        Sep 1, 2015
- *    @copyright   ©2015 ACME, INC.
- *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES 
- *                  AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM 
- *                  ARE THE SOLE PROPERTY OF ACME.COM.
- *
- *----------------------------------------------------------------*/
-$start = microtime(true);
-$page_title = 'ACME Summit 2015 - Schedule';
-include_once 'includes/mainpre.php';
+include_once 'includes/ap_mainpre.php';
 include_once INCLUDES.'header.html';
 ?>
 <table width="775" border="0" cellspacing="0" cellpadding="0">

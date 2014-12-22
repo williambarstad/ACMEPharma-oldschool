@@ -14,8 +14,8 @@
 *    @since       20141203
 *    @copyright   ©2015 SKOONCH.COM
 *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES
-*                 AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM
-*                 ARE THE SOLE PROPERTY OF ACME.COM.
+*                 AND BUSINESS INNOVATIONS INCORPORATED INTO skoonch.com
+*                 ARE THE SOLE PROPERTY OF skoonch.com.
 *
 *----------------------------------------------------------------*/
 $start = microtime(true);
@@ -38,7 +38,7 @@ include_once INCLUDES.'header.html';
                 2100 Central Ave Ste. 201 <br>
                 Boulder, CO  80301 <br>
                 303.440.5181<br><br>
-                <a href="mailto:usersgroup@ACME.com">Email us!</a>                
+                <a href="mailto:usersgroup@acmepharma.skoonch.com">Email us!</a>                
             </td>
             <td>
                 <p align="center">

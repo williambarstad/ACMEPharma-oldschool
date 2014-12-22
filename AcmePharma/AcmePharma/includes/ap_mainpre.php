@@ -1,25 +1,27 @@
 <?php
 /** 
- * @name     	mainpre.php - required functions and attributes
+ * @name     	ap_mainpre.php - required functions and attributes
  * @version		0.1
  * 
-  *------------------------------------------------------------------
+ *------------------------------------------------------------------
  *    
- *		ACME, INC.
- *    
- *		http://ACMEPHARMA.skoonch.com
+ *    ACMEPharma Example
+ *    Summit Meeting Registration Application (SMRA)
  *
- *    @author		William Barstad
- *    @since		Aug 31, 2015
- *    @copyright	©2015 ACME, INC.
- *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES 
- *                  AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM 
- *                  ARE THE SOLE PROPERTY OF ACME.COM.
+ *    http://ACMEPHARMA.skoonch.com
+ *
+ *    @author      William Barstad
+ *    @since       20141203
+ *    @copyright   ©2015 SKOONCH.COM
+ *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES
+ *                 AND BUSINESS INNOVATIONS INCORPORATED INTO skoonch.com
+ *                 ARE THE SOLE PROPERTY OF skoonch.com.
+ *
  *
  *----------------------------------------------------------------*/
 
 // Keeps this script from being accessed directly. It can only be included
-if (preg_match("/mainpre.php/i", $_SERVER['PHP_SELF'])) { die(); }
+if (preg_match("/ap_mainpre.php/i", $_SERVER['PHP_SELF'])) { die(); }
 
 // Prevent any possible XSS attacks via $_GET.
 if (stripget($_GET)) {
@@ -70,7 +72,7 @@ error_reporting(E_ALL);
 function ACME_error ($e_number, $e_message) {
 	$message = 'ACME_error: An uncaught error has occurred - '.$e_number.': '.$e_message;
 	echo formatError($message);
-	//error_log ($message,1,'support@ACME.com'); //Production (send email)	
+	//error_log ($message,1,'support@acmepharma.skoonch.com'); //Production (send email)	
 }	
 
 // Set default system handler
@@ -105,7 +107,7 @@ function sendMail($to,$to_name,$from,$from_name,$subject,$mssg,$cc=""){
     //the following Xcrap is to make this play nice with ms outlook and hotmail...  not exactly sure what it does though.
     $headers .= "X-Priority: 3\n";
     $headers .= "X-MSMail-Priority: 3\n";
-    $headers .= "X-Mailer: ACME.com\n";
+    $headers .= "X-Mailer: acmepharma.skoonch.com\n";
     if($cc) $headers .= "Cc: ".$cc."\n";
     if(mail($to_address, stripslashes($subject), stripslashes($mssg), $headers)){//
         return true;

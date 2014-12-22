@@ -14,8 +14,8 @@
  *    @since       20141203
  *    @copyright   ©2015 SKOONCH.COM
  *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES
- *                 AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM
- *                 ARE THE SOLE PROPERTY OF ACME.COM.
+ *                 AND BUSINESS INNOVATIONS INCORPORATED INTO skoonch.com
+ *                 ARE THE SOLE PROPERTY OF skoonch.com.
  *
  *----------------------------------------------------------------*/
 $start = microtime(true);

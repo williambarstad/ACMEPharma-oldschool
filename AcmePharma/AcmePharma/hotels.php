@@ -5,16 +5,17 @@
  *
  *------------------------------------------------------------------
  *
- *    ACME, INC.
+ *    ACMEPharma Example
+ *    Summit Meeting Registration Application (SMRA)
  *
  *    http://ACMEPHARMA.skoonch.com
  *
- *    @author      wbarstad
- *    @since       Aug 31, 2015
- *    @copyright   ©2015 ACME, INC.
+ *    @author      William Barstad
+ *    @since       20141203
+ *    @copyright   ©2015 SKOONCH.COM
  *    @license     ALL IDEAS, CONCEPTS, SYSTEMS, GRAPHICS, INTERFACES
- *                  AND BUSINESS INNOVATIONS INCORPORATED INTO ACME.COM
- *                  ARE THE SOLE PROPERTY OF ACME.COM.
+ *                 AND BUSINESS INNOVATIONS INCORPORATED INTO skoonch.com
+ *                 ARE THE SOLE PROPERTY OF skoonch.com.
  *
  *----------------------------------------------------------------*/
 $start = microtime(true);
@@ -66,7 +67,7 @@ include_once INCLUDES.'header.html';
                             <br> To get this special rate
                             you will need register through
                             this site.<br> Click 
-                            <a href="http://summit.ACME.com/registration.htm">here</a>
+                            <a href="http://acmepharma.skoonch.com/registration.htm">here</a>
                             to register now. <br>
                             <br>
                             <br> See the hotel's site for 
