@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>AcmePharma</Name>
+    <ProjectGuid>e6f62fd7-da21-4eaa-8a9f-993a8b3d755c</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AcmePharma</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>AcmePharma</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="accommodations.php" />
+    <Compile Include="agenda.php" />
+    <Compile Include="attendees\index.php" />
+    <Compile Include="breakout.php" />
+    <Compile Include="contactus.php" />
+    <Compile Include="hotels.php" />
+    <Compile Include="includes\ap_mail.php" />
+    <Compile Include="includes\ap_mailtest.php" />
+    <Compile Include="includes\attendee.class.php" />
+    <Compile Include="includes\mainpre.php" />
+    <Compile Include="includes\submit.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pp.php" />
+    <Compile Include="register.php" />
+    <Compile Include="schedule.php" />
+    <Compile Include="thankyou.php" />
+    <Compile Include="_junk\c-css.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="attendees\" />
+    <Folder Include="images\" />
+    <Folder Include="includes\" />
+    <Folder Include="logs\" />
+    <Folder Include="_junk\" />
+    <Folder Include="_junk\Templates\" />
+    <Folder Include="_junk\_notes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\banner.psd" />
+    <Content Include="assets\banner.xcf" />
+    <Content Include="assets\bannerfoot.xcf" />
+    <Content Include="assets\bg.xcf" />
+    <Content Include="assets\contactheadings.psd" />
+    <Content Include="assets\directions.psd" />
+    <Content Include="assets\food.jpg" />
+    <Content Include="assets\MIQS_summit2011.psd" />
+    <Content Include="assets\news box.psd" />
+    <Content Include="assets\president heading.psd" />
+    <Content Include="assets\rest_headings.psd" />
+    <Content Include="assets\side titles.psd" />
+    <Content Include="attendees\attendees.csv" />
+    <Content Include="images\banner.png" />
+    <Content Include="images\bannerfoot.png" />
+    <Content Include="images\bed.jpg" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\boh_logo.JPG" />
+    <Content Include="images\box_bottom.gif" />
+    <Content Include="images\box_left_repeat.gif" />
+    <Content Include="images\box_right_repeat.gif" />
+    <Content Include="images\box_top.gif" />
+    <Content Include="images\burger.jpg" />
+    <Content Include="images\contact_side.jpg" />
+    <Content Include="images\date_bg.gif" />
+    <Content Include="images\directions.jpg" />
+    <Content Include="images\docindex.jpg" />
+    <Content Include="images\dot.gif" />
+    <Content Include="images\downtown_map.gif" />
+    <Content Include="images\down_date.gif" />
+    <Content Include="images\events_side.jpg" />
+    <Content Include="images\headq.jpg" />
+    <Content Include="images\hotel.JPG" />
+    <Content Include="images\hotels_sides.jpg" />
+    <Content Include="images\hotel_logo.png" />
+    <Content Include="images\imgtabs.gif" />
+    <Content Include="images\imgtabs.psd" />
+    <Content Include="images\links.gif" />
+    <Content Include="images\LinksFull.gif" />
+    <Content Include="images\linkstable.html" />
+    <Content Include="images\linkstable_01.gif" />
+    <Content Include="images\linkstable_02.gif" />
+    <Content Include="images\linkstable_03.gif" />
+    <Content Include="images\linkstable_04.gif" />
+    <Content Include="images\linkstable_05.gif" />
+    <Content Include="images\linkstable_06.gif" />
+    <Content Include="images\linkstable_07.gif" />
+    <Content Include="images\logo_add.gif" />
+    <Content Include="images\maps_side.jpg" />
+    <Content Include="images\mid_left.gif" />
+    <Content Include="images\mid_mid.gif" />
+    <Content Include="images\mid_right.gif" />
+    <Content Include="images\miqslogo.png" />
+    <Content Include="images\MIQSlogoft.png" />
+    <Content Include="images\MIQS_Logo_COLOR.png" />
+    <Content Include="images\no1.jpg" />
+    <Content Include="images\no1.png" />
+    <Content Include="images\no2.jpg" />
+    <Content Include="images\no3.jpg" />
+    <Content Include="images\pgbg.gif" />
+    <Content Include="images\phone.jpg" />
+    <Content Include="images\presidentheading.gif" />
+    <Content Include="images\registration_side.jpg" />
+    <Content Include="images\rest_head.jpg" />
+    <Content Include="images\rest_side.jpg" />
+    <Content Include="images\schedule_side.jpg" />
+    <Content Include="images\shim.gif" />
+    <Content Include="images\small_logo.jpg" />
+    <Content Include="images\thingstodo_side.jpg" />
+    <Content Include="images\top_left.gif" />
+    <Content Include="images\top_mid.gif" />
+    <Content Include="images\tradeshow_side.jpg" />
+    <Content Include="images\usergroup_side.jpg" />
+    <Content Include="images\visiting_side.jpg" />
+    <Content Include="images\welcome_side.jpg" />
+    <Content Include="includes\footer.html" />
+    <Content Include="includes\header.html" />
+    <Content Include="includes\html5.js" />
+    <Content Include="includes\jquery.js" />
+    <Content Include="includes\styles.css" />
+    <Content Include="_junk\CreateHTML5Elements.js" />
+    <Content Include="_junk\imgrot.js" />
+    <Content Include="_junk\Templates\pages.dwt" />
+    <Content Include="_junk\Templates\restaurants.dwt" />
+    <Content Include="_junk\test.css" />
+    <Content Include="_junk\_notes\dwSiteColumnsMe.xml" />
+  </ItemGroup>
+</Project>
